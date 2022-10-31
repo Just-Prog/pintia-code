@@ -30,4 +30,16 @@ int main(){
     }
     printf("%d",ans);
     return 0;
+
+    /*
+     * Another Solution
+     * 
+     * int n=0;
+     * char c;
+     * while(c=getchar()!='\n){
+     *     n*=2;
+     *     n+=c-'0';
+     * }
+     */
+    
 }
